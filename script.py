@@ -3,7 +3,7 @@ from PIL import Image
 from docx import Document
 from docx.shared import RGBColor, Inches, Pt
 
-im = Image.open('ex.jpg').convert('RGB')
+im = Image.open('ex.jpg').convert('RGB') # insert your image
 doc = Document()
 h, w = im.size
 color = []
